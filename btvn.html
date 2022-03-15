@@ -11,13 +11,16 @@
     <body>
         <form class="bang" action="#" method="post" name="thong-tin" onsubmit="return validateForm()">
 
-        Tên: <input id="name" type="text" name="username" placeholder="tên"> <br><br>
-        Tuổi: <input type="number" id="age" name="age" placeholder="tuổi"> <br><br>
-        Số điện thoại: <input type="number" id="tel" name="tel" placeholder="số điện thoại"> <br><br>
-        Gender: <select id="gender" name="gender"> <option value="female">Female</option> 
-        <option value="male">Male</option>
-        <option value="other">Other</option></select> <br><br>
-        <input type="submit" name="submit" value="Submit">
+        <fieldset class="shade">
+            Tên: <input id="name" type="text" name="username" placeholder="tên"> <br><br>
+            Tuổi: <input type="number" id="age" name="age" placeholder="tuổi"> <br><br>
+            Số điện thoại: <input type="number" id="tel" name="tel" placeholder="số điện thoại"> <br><br>
+            Gender: <select id="gender" name="gender"> <option value="female">Female</option> 
+            <option value="male">Male</option>
+            <option value="other">Other</option></select> <br><br>
+            <input class="button" type="submit" name="submit" value="Submit">
+        </fieldset>
+
         </form>
 
         <script>
@@ -35,7 +38,7 @@
                 alert("Bạn chưa điền đủ thông tin");
                 return false;
                 }
-            }
+            }   
 
             function validateForm() {
                 let x = document.forms["thong-tin"]["tel"].value;
