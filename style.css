@@ -8,6 +8,8 @@ input{
     border: 1px solid;
     padding: 10px;
     box-shadow: 7px 10px #888888;
+    background-color: rgb(233, 112, 75);
+    border-radius: 45px;
 }
 
 .button {
@@ -20,7 +22,7 @@ input{
     letter-spacing: 2.5px;
     font-weight: 500;
     color: #000;
-    background-color: rgb(248, 106, 50);
+    background-color: rgb(250, 100, 41);
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -30,7 +32,7 @@ input{
     }
   
 .button:hover {
-    background-color: #f34511;
+    background-color: #ee5324;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
