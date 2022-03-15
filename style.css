@@ -1,3 +1,37 @@
-.bang {
-    text-align: center;
+input{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+}
+
+.shade {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 7px 10px #888888;
+}
+
+.button {
+    margin-left: 45%;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(248, 106, 50);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+.button:hover {
+    background-color: #f34511;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 }
